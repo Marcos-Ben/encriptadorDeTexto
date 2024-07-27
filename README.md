@@ -14,7 +14,7 @@
   </tr>
   </table>
 </div>
-<p align="center"> Recuerda que estas son las claves para encriptar O desencriptar✍🏻✅</p>
+<p align="center"> Recuerda que estas son las claves para encriptar✍🏻✅</p>
 <table align="center">
   <tr>
     <td>La letra "a" es convertida para "ai"</td>

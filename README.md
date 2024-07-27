@@ -1,5 +1,6 @@
 <h1 align="center" style="color: #2be2c6";>Encriptador De Texto</h1>
-<p align="center"> Funciona solo con letras minúsculas. no puede usar letras mayúsculas letras con acentos ni caracteres especiales. puede convertir una palabra a su versión encriptada y también puede devolver una palabra encriptada a su versión original, puede copiar despues el valor de encriptar o desencriptar</p>
+<p align="center"> Funciona solo con letras minúsculas. no puede usar letras mayúsculas letras con acentos ni caracteres especiales. puede convertir una palabra a su versión encriptada y también puede devolver una palabra encriptada a su versión original, puede copiar despues el valor de encriptar o desencriptar.</p>
+<p align="center"> contiene un botón para cambiar entre modo oscuro y modo claro 🔦</p>
 <div align="center">
   <table>
     <tr>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="header-buttons">
+            <div class="contenedor1">
+            <img src="./assets/m_circle.svg" alt="m_icon" id="alpha__icon">
+            <img src="./assets/toggle_off.png" alt="DARK-LIGHT" id="toggle-button" onclick="darkMode()">
+            </div>
+            <div class="contenedor2">
+            <ul class="header-list">
+                <li class="item"><a href="https://www.linkedin.com/in/marcos-benencia-733298307/" target="_blank" id="redes">Linkedin</a></li>
+                <li class="item"><a href="https://github.com/Marcos-Ben" target="_blank" id="redes2">Github</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <!-- section main -->
+    <main class="main-all">
+        <section class="main_1">
+            <textarea  id="textArea_encriptar" autocapitalize="off" placeholder="Ingrese Su Texto Aquí &#8595;" spellcheck="false"></textarea>
+            <p id="p_mins">&diams; Solo letras minúsculas y sin Acentos</p>
+            <div class="btns">
+                <button id="btn1" onclick="encriptar()">Encriptar</button>
+                <button id="btn2" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="main_2">
+                <img src="./assets/rosa-unscreen.gif" alt="" id="img-main2">
+                <textarea id="textoADesencriptar" tabindex="-1"  spellcheck="false" placeholder="&#8592;Ingrese su texto para Encriptar O Desencriptar, ¡Texto No encontrado!" readonly></textarea>
+            <div class="btns2">
+                <button id="textCopy" onclick="copiarTextArea()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <!--footer-->
+<footer>
+    <div id="footer_contain">
+        <p id="p_design">© 2024 Diseñado por Marcos Benencia</p>
+        <img src="./assets/wave.svg" alt="" id="waves_footer">
+    </div>
+</footer>
+<script src="./archivos_js/app.js"></script>
+<script src="./archivos_js/dark_mode.js"></script>
+</body>
+</html>

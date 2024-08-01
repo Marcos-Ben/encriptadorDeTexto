@@ -5,7 +5,6 @@ let btnEncriptar = document.getElementById("btn1");
 let btnDesencriptar = document.getElementById("btn2");
 let btnCopiar = document.getElementById("textCopy");
 let parrafoMins = document.getElementById("p_mins");
-let imgSection2 = document.getElementById("waves_footer");
 
 function encriptar() {
     let texto = valorTxtArea.value;

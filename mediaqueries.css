@@ -53,6 +53,7 @@
     .main-all{
         display: flex;
         flex-direction: column;
+        padding: 2% 4% 0% 8%;
     }
     #p_mins{
         text-align: center;
